@@ -1,0 +1,28 @@
+﻿Hestaferðin mikla;Mosfellsbær;hestaferð;Íshestar;030617;3,5;11:00;15.000;12;false;false;true;6,9
+Hestaferðin mikla;Mosfellsbær;hestaferð;Íshestar;030617;3,5;15:00;15.000;10;false;false;true;7,9
+Hestaferðin mikla;Mosfellsbær;hestaferð;Íshestar;100617;3,5;11:00;15.000;10;false;false;true;7,6
+Hestaferðin mikla;Mosfellsbær;hestaferð;Íshestar;100617;3,5;15:00;15.000;12;false;false;true;7,5
+Hestaferðin mikla;Mosfellsbær;hestaferð;Íshestar;170617;3,5;11:00;15.000;12;false;false;true;6,9
+Hestaferðin mikla;Mosfellsbær;hestaferð;Íshestar;170617;3,5;15:00;15.000;12;false;false;true;7,9
+Hestaferðin mikla;Mosfellsbær;hestaferð;Íshestar;240617;3,5;11:00;15.000;4;false;false;true;7,6
+Hestaferðin mikla;Mosfellsbær;hestaferð;Íshestar;240617;3,5;15:00;15.000;12;false;false;true;7,5
+Hestaferðin þín;Mosfellsbær;hestaferð;Íshestar;040617;2;11:00;11.000;8;true;true;true;7,0
+Hestaferðin þín;Mosfellsbær;hestaferð;Íshestar;040617;2;15:00;11.000;8;true;true;true;7,0
+Hestaferðin þín;Mosfellsbær;hestaferð;Íshestar;110617;2;11:00;11.000;12;true;true;true;7,1
+Hestaferðin þín;Mosfellsbær;hestaferð;Íshestar;110617;2;15:00;11.000;11;true;true;true;8,1
+Ævintýrahestaferð;Akranes;hestaferð;Sporthestar;030617;4,5;10:00;22.000;20;false;false;false;8,9
+Ævintýrahestaferð;Akranes;hestaferð;Sporthestar;040617;4,5;10:00;22.000;10;false;false;false;9,4
+Ævintýrahestaferð;Akranes;hestaferð;Sporthestar;100617;4,5;10:00;22.000;20;false;false;false;9,4
+Ævintýrahestaferð;Akranes;hestaferð;Sporthestar;110617;4,5;10:00;22.000;20;false;false;false;8,8
+Ævintýrahestaferð;Akranes;hestaferð;Sporthestar;170617;4,5;10:00;22.000;20;false;false;false;8,8
+Ævintýrahestaferð;Akranes;hestaferð;Sporthestar;180617;4,5;10:00;22.000;20;false;false;false;9,0
+Ævintýrahestaferð;Akranes;hestaferð;Sporthestar;240617;4,5;10:00;22.000;5;false;false;false;9,0
+Ævintýrahestaferð;Akranes;hestaferð;Sporthestar;250617;4,5;10:00;22.000;0;false;false;false;8,5
+Ævintýrahestaferð;Akranes;hestaferð;Sporthestar;010717;4,5;10:00;22.000;20;false;false;false;8,9
+Ævintýrahestaferð;Akranes;hestaferð;Sporthestar;020717;4,5;10:00;22.000;10;false;false;false;8,9
+Ævintýrahestaferð;Akranes;hestaferð;Sporthestar;080717;4,5;10:00;22.000;20;false;false;false;7,9
+Ævintýrahestaferð;Akranes;hestaferð;Sporthestar;090717;4,5;10:00;22.000;20;false;false;false;8,2
+Ævintýrahestaferð;Akranes;hestaferð;Sporthestar;150717;4,5;10:00;22.000;20;false;false;false;8,9
+Ævintýrahestaferð;Akranes;hestaferð;Sporthestar;160717;4,5;10:00;22.000;20;false;false;false;9,0
+Ævintýrahestaferð;Akranes;hestaferð;Sporthestar;220717;4,5;10:00;22.000;17;false;false;false;7,9
+Ævintýrahestaferð;Akranes;hestaferð;Sporthestar;230717;4,5;10:00;22.000;15;false;false;false;8,1
