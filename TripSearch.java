@@ -4,7 +4,6 @@ public class TripSearch{
 
     public TripSearch(){
         this.listOfTrips = this.getTrips();
-        this.filteredList;
     }
 
     private List<Trips> getTrips(){
@@ -17,7 +16,7 @@ public class TripSearch{
         return list;
     }
 
-    private searchTrip(String name, String location, String type, String company, Integer date, Integer duration, Integer time, Integer price, Integer spots, boolean isSeniors, boolean isChildren, boolean pickUp, double score){
+    private searchTrip(String name, String location, String type, Integer date, Integer time, Integer price, Integer spots, boolean isSeniors, boolean isChildren, boolean pickUp){
         this.filteredList = new ArrayList<Trips>;
         
         //testa search Trip
