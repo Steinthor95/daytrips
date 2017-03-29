@@ -1,0 +1,17 @@
+public class TripBooker{
+
+    public void bookTrip(Trip trip, User user){
+        Booking bokun = new Booking(user, trip);
+        BookingManager bokaferd = new BookingManager();
+        bokaferd.saveNewBooking(bokun);
+        user.setMyList(trip);
+    }
+
+
+
+    public void cancelTrip{Trip trip, User user){
+        Booking beil = new Booking(user, trip);
+        BookingManager eydaferd = new BookingManager();
+        eydaferd.cancelBooking(beil);
+        user.cancel(trip);
+    }
