@@ -1,28 +1,28 @@
-﻿Hestaferdin mikla;Mosfellsbær;hestaferð;Íshestar;030617;3.5;1100;15000;12;false;false;true;6.9
-Hestaferdin mikla;Mosfellsbær;hestaferð;Íshestar;030617;3.5;1500;15000;10;false;false;true;7.9
-Hestaferdin mikla;Mosfellsbær;hestaferð;Íshestar;100617;3.5;1100;15000;10;false;false;true;7.6
-Hestaferdin mikla;Mosfellsbær;hestaferð;Íshestar;100617;3.5;1500;15000;12;false;false;true;7.5
-Hestaferdin mikla;Mosfellsbær;hestaferð;Íshestar;170617;3.5;1100;15000;12;false;false;true;6.9
-Hestaferdin mikla;Mosfellsbær;hestaferð;Íshestar;170617;3.5;1500;15000;12;false;false;true;7.9
-Hestaferdin mikla;Mosfellsbær;hestaferð;Íshestar;240617;3.5;1100;15000;4;false;false;true;7.6
-Hestaferdin mikla;Mosfellsbær;hestaferð;Íshestar;240617;3.5;1500;15000;12;false;false;true;7.5
-Hestaferðin thin;Mosfellsbær;hestaferð;Íshestar;040617;2;1100;11000;8;true;true;true;7.0
-Hestaferðin thin;Mosfellsbær;hestaferð;Íshestar;040617;2;1500;11000;8;true;true;true;7.0
-Hestaferðin thin;Mosfellsbær;hestaferð;Íshestar;110617;2;1100;11000;12;true;true;true;7.1
-Hestaferðin thin;Mosfellsbær;hestaferð;Íshestar;110617;2;1500;11000;11;true;true;true;8.1
-Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;030617;4.5;1000;22000;20;false;false;false;8.9
-Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;040617;4.5;1000;22000;10;false;false;false;9.4
-Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;100617;4.5;1000;22000;20;false;false;false;9.4
-Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;110617;4.5;1000;22000;20;false;false;false;8.8
-Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;170617;4.5;1000;22000;20;false;false;false;8.8
-Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;180617;4.5;1000;22000;20;false;false;false;9.0
-Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;240617;4.5;1000;22000;5;false;false;false;9.0
-Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;250617;4.5;1000;22000;0;false;false;false;8.5
-Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;010717;4.5;1000;22000;20;false;false;false;8.9
-Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;020717;4.5;1000;22000;10;false;false;false;8.9
-Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;080717;4.5;1000;22000;20;false;false;false;7.9
-Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;090717;4.5;1000;22000;20;false;false;false;8.2
-Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;150717;4.5;1000;22000;20;false;false;false;8.9
-Aevintyrahestaferd;Akureyri;hestaferð;Sporthestar;160717;4.5;1000;22000;20;false;false;false;9.0
-Aevintyrahestaferd;Akureyri;hestaferð;Sporthestar;220717;4.5;1000;22000;17;false;false;false;7.9
-Aevintyrahestaferd;Akureyri;hestaferð;Sporthestar;230717;4.5;1000;22000;15;false;false;false;8.1
+﻿Hestaferdin mikla;Mosfellsbaer;hestaferð;Íshestar;03-06-2017;3.5;1100;15000;12;false;false;true;6.9
+Hestaferdin mikla;Mosfellsbaer;hestaferð;Íshestar;03-06-2017;3.5;1500;15000;10;false;false;true;7.9
+Hestaferdin mikla;Mosfellsbaer;hestaferð;Íshestar;10-06-2017;3.5;1100;15000;10;false;false;true;7.6
+Hestaferdin mikla;Mosfellsbaer;hestaferð;Íshestar;10-06-2017;3.5;1500;15000;12;false;false;true;7.5
+Hestaferdin mikla;Mosfellsbaer;hestaferð;Íshestar;17-06-2017;3.5;1100;15000;12;false;false;true;6.9
+Hestaferdin mikla;Mosfellsbaer;hestaferð;Íshestar;17-06-2017;3.5;1500;15000;12;false;false;true;7.9
+Hestaferdin mikla;Mosfellsbaer;hestaferð;Íshestar;24-06-2017;3.5;1100;15000;4;false;false;true;7.6
+Hestaferdin mikla;Mosfellsbaer;hestaferð;Íshestar;24-06-2017;3.5;1500;15000;12;false;false;true;7.5
+Hestaferdin thin;Mosfellsbaer;hestaferð;Íshestar;04-06-2017;2;1100;11000;8;true;true;true;7.0
+Hestaferdin thin;Mosfellsbaer;hestaferð;Íshestar;04-06-2017;2;1500;11000;8;true;true;true;7.0
+Hestaferdin thin;Mosfellsbaer;hestaferð;Íshestar;11-06-2017;2;1100;11000;12;true;true;true;7.1
+Hestaferdin thin;Mosfellsbaer;hestaferð;Íshestar;11-06-2017;2;1500;11000;11;true;true;true;8.1
+Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;03-06-2017;4.5;1000;22000;20;false;false;false;8.9
+Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;04-06-2017;4.5;1000;22000;10;false;false;false;9.4
+Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;10-06-2017;4.5;1000;22000;20;false;false;false;9.4
+Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;11-06-2017;4.5;1000;22000;20;false;false;false;8.8
+Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;17-06-2017;4.5;1000;22000;20;false;false;false;8.8
+Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;18-06-2017;4.5;1000;22000;20;false;false;false;9.0
+Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;24-06-2017;4.5;1000;22000;5;false;false;false;9.0
+Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;25-06-2017;4.5;1000;22000;0;false;false;false;8.5
+Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;01-07-2017;4.5;1000;22000;20;false;false;false;8.9
+Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;02-07-2017;4.5;1000;22000;10;false;false;false;8.9
+Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;08-07-2017;4.5;1000;22000;20;false;false;false;7.9
+Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;09-07-2017;4.5;1000;22000;20;false;false;false;8.2
+Aevintyrahestaferd;Akranes;hestaferð;Sporthestar;15-07-2017;4.5;1000;22000;20;false;false;false;8.9
+Aevintyrahestaferd;Akureyri;hestaferð;Sporthestar;16-07-2017;4.5;1000;22000;20;false;false;false;9.0
+Aevintyrahestaferd;Akureyri;hestaferð;Sporthestar;22-07-2017;4.5;1000;22000;17;false;false;false;7.9
+Aevintyrahestaferd;Akureyri;hestaferð;Sporthestar;23-07-2017;4.5;1000;22000;15;false;false;false;8.1
