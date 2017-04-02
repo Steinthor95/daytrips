@@ -1,12 +1,13 @@
 import java.util.*;
 
-public class TripSearch{
+public class TripSearch implements Iterable<Trip>{
     private List<Trip> listOfTrips;
     private List<Trip> filteredList;
 
     public TripSearch(){
 
         this.listOfTrips = this.getTrips();
+        this.filteredList = this.getTrips();
     }
 
     private List<Trip> getTrips(){
@@ -15,26 +16,24 @@ public class TripSearch{
         String[][] rawData = dM.readData();
         //finna ut hvernig a ad breyta object i string, integer etc.
         for(int i = 0; i < rawData.length; i++){
-            list.add(i, new Trip(rawData[i][0], rawData[i][1], rawData[i][2], rawData[i][3], Integer.parseInt(rawData[i][4]), Double.parseDouble(rawData[i][5]), Integer.parseInt(rawData[i][6]), Integer.parseInt(rawData[i][7]), Integer.parseInt(rawData[i][8]), Boolean.parseBoolean(rawData[i][9]), Boolean.parseBoolean(rawData[i][10]), Boolean.parseBoolean(rawData[i][11]), Double.parseDouble(rawData[i][12])));
+            list.add(i, new Trip(rawData[i][0], rawData[i][1], rawData[i][2], rawData[i][3], rawData[i][4], Double.parseDouble(rawData[i][5]), Integer.parseInt(rawData[i][6]), Integer.parseInt(rawData[i][7]), Integer.parseInt(rawData[i][8]), Boolean.parseBoolean(rawData[i][9]), Boolean.parseBoolean(rawData[i][10]), Boolean.parseBoolean(rawData[i][11]), Double.parseDouble(rawData[i][12])));
         }
         return list;
     }
 
-    private void searchTrip(String name, String location, String type, Integer date, Integer time, Integer price, Integer spots, boolean isSeniors, boolean isChildren, boolean pickUp){
+    private void searchTrip(String name, String location, String type, String date, Integer time, Integer price, Integer spots){
 
         this.filteredList = new ArrayList<Trip>();
 
-        if (name != null){
+        if (!name.equals("null")){
             for(Trip temp : this.listOfTrips){
-                System.out.println(temp.getName());
-                //afhverju virkar ekki thessi if-setning ?
                 if (name.equals(temp.getName())){
                     this.filteredList.add(temp);
                 }
             }
         }
 
-        if(location != null){
+        if(!location.equals("null")){
             if(this.filteredList.size() == 0) {
                 for (Trip temp : this.listOfTrips) {
                     if (location.equals(temp.getLocation())) {
@@ -52,7 +51,7 @@ public class TripSearch{
             }
         }
 
-        if(type != null){
+        if(!type.equals("null")){
             if(this.filteredList.size() == 0) {
                 for (Trip temp : this.listOfTrips) {
                     if (type.equals(temp.getType())) {
@@ -70,17 +69,17 @@ public class TripSearch{
             }
         }
 
-        if(date != 0){
+        if(!date.equals("null")){
             if(this.filteredList.size() == 0) {
                 for (Trip temp : this.listOfTrips) {
-                    if (date == temp.getDate()) {
+                    if (date.equals(temp.getDate())) {
                         this.filteredList.add(temp);
                     }
                 }
             }else{
                 List<Trip> toRemove = new ArrayList<Trip>();
-                for(Trip temp: this.filteredList){
-                    if(date != temp.getDate()){
+                for(Trip temp : this.filteredList){
+                    if(!date.equals(temp.getDate())){
                         toRemove.add(temp);
                     }
                 }
@@ -98,7 +97,7 @@ public class TripSearch{
             }else{
                 List<Trip> toRemove = new ArrayList<Trip>();
                 for(Trip temp: this.filteredList){
-                    if(time != temp.getTime()){
+                    if(!time.equals(temp.getTime())){
                         toRemove.add(temp);
                     }
                 }
@@ -109,14 +108,14 @@ public class TripSearch{
         if(price != 0){
             if(this.filteredList.size() == 0) {
                 for (Trip temp : this.listOfTrips) {
-                    if (price == temp.getPrice()) {
+                    if (price.compareTo(temp.getPrice()) != -1) {
                         this.filteredList.add(temp);
                     }
                 }
             }else{
                 List<Trip> toRemove = new ArrayList<Trip>();
                 for(Trip temp: this.filteredList){
-                    if(price != temp.getPrice()){
+                    if(price.compareTo(temp.getPrice()) == -1){
                         toRemove.add(temp);
                     }
                 }
@@ -127,14 +126,14 @@ public class TripSearch{
         if(spots != 0){
             if(this.filteredList.size() == 0) {
                 for (Trip temp : this.listOfTrips) {
-                    if (spots == temp.getSpots()) {
+                    if (spots.compareTo(temp.getSpots()) != 1) {
                         this.filteredList.add(temp);
                     }
                 }
             }else{
                 List<Trip> toRemove = new ArrayList<Trip>();
                 for(Trip temp: this.filteredList){
-                    if(spots != temp.getSpots()){
+                    if(spots.compareTo(temp.getSpots()) == 1){
                         toRemove.add(temp);
                     }
                 }
@@ -143,12 +142,35 @@ public class TripSearch{
         }
 
     }
-    public void sortBy(){
+    public void sortBy(String a){
+        if(a.equals("price"))
+        {
+            Collections.sort(this.filteredList, Trip.PriceComparator());
+        }
 
+        if(a.equals("Score"))
+        {
+            Collections.sort(this.filteredList, Trip.ScoreComparator());
+        }
+        if(a.equals("Duration"))
+        {
+            Collections.sort(this.filteredList, Trip.DurationComparator());
+        }
+        if(a.equals("Date"))
+        {
+            Collections.sort(this.filteredList, Trip.DateComparator());
+        }
+        else throw new IllegalArgumentException("ekki loglegt");
     }
+
+    @Override
+    public Iterator<Trip> iterator() {
+        return filteredList.iterator();
+    }
+
     public static void main(String[] args){
         TripSearch ferd = new TripSearch();
-        ferd.searchTrip("Aevintyrahestaferd", "Akureyri", "null",160717, 0, 0, 0, false, false, false);
+        ferd.searchTrip("null", "Akranes", "null", "11-06-2017", 0, 12000, 12);
         System.out.println(ferd.filteredList.size());
     }
 }
