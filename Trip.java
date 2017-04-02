@@ -39,6 +39,7 @@ public class Trip{
     public String getType(){
         return this.type;
     }
+    
     public String getCompany(){
         return this.company;
     }
