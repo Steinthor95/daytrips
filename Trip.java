@@ -36,6 +36,47 @@ public class Trip{
         return this.location;
     }
 
+    public String getType(){
+        return this.type;
+    }
+    public String getCompany(){
+        return this.company;
+    }
+    public Integer getDate(){
+        return this.date;
+    }
+
+    public Double getDuration(){
+        return this.duration;
+    }
+    public Integer getTime(){
+        return this.time;
+    }
+
+    public Integer getPrice(){
+        return this.price;
+    }
+
+    public Integer getSpots(){
+        return this.spots;
+    }
+
+    public boolean getIsSeniors(){
+        return this.isSeniors;
+    }
+
+    public boolean getIsChildren(){
+        return this.isChildren;
+    }
+
+    public boolean getPickUp(){
+        return this.pickUp;
+    }
+
+    public Double getScore(){
+        return this.score;
+    }
+
     public static void main (String[] args){
         
     }
