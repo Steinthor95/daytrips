@@ -23,6 +23,7 @@ public class TripSearch{
     private void searchTrip(String name, String location, String type, Integer date, Integer time, Integer price, Integer spots, boolean isSeniors, boolean isChildren, boolean pickUp){
 
         this.filteredList = new ArrayList<Trip>();
+
         if (name != null){
             for(Trip temp : this.listOfTrips){
                 System.out.println(temp.getName());
@@ -36,29 +37,118 @@ public class TripSearch{
         if(location != null){
             if(this.filteredList.size() == 0) {
                 for (Trip temp : this.listOfTrips) {
-                    if (temp.getLocation() == location) {
+                    if (location.equals(temp.getLocation())) {
                         this.filteredList.add(temp);
                     }
                 }
             }else{
                 List<Trip> toRemove = new ArrayList<Trip>();
                 for(Trip temp: this.filteredList){
-                    if(temp.getLocation() != location){
+                    if(!location.equals(temp.getLocation())){
                         toRemove.add(temp);
                     }
                 }
                 filteredList.removeAll(toRemove);
             }
         }
-        //testa search Trip
-        //testa sortby
+
+        if(type != null){
+            if(this.filteredList.size() == 0) {
+                for (Trip temp : this.listOfTrips) {
+                    if (type.equals(temp.getType())) {
+                        this.filteredList.add(temp);
+                    }
+                }
+            }else{
+                List<Trip> toRemove = new ArrayList<Trip>();
+                for(Trip temp: this.filteredList){
+                    if(!type.equals(temp.getType())){
+                        toRemove.add(temp);
+                    }
+                }
+                filteredList.removeAll(toRemove);
+            }
+        }
+
+        if(date != 0){
+            if(this.filteredList.size() == 0) {
+                for (Trip temp : this.listOfTrips) {
+                    if (date == temp.getDate()) {
+                        this.filteredList.add(temp);
+                    }
+                }
+            }else{
+                List<Trip> toRemove = new ArrayList<Trip>();
+                for(Trip temp: this.filteredList){
+                    if(date != temp.getDate()){
+                        toRemove.add(temp);
+                    }
+                }
+                filteredList.removeAll(toRemove);
+            }
+        }
+
+        if(time != 0){
+            if(this.filteredList.size() == 0) {
+                for (Trip temp : this.listOfTrips) {
+                    if (time == temp.getTime()) {
+                        this.filteredList.add(temp);
+                    }
+                }
+            }else{
+                List<Trip> toRemove = new ArrayList<Trip>();
+                for(Trip temp: this.filteredList){
+                    if(time != temp.getTime()){
+                        toRemove.add(temp);
+                    }
+                }
+                filteredList.removeAll(toRemove);
+            }
+        }
+
+        if(price != 0){
+            if(this.filteredList.size() == 0) {
+                for (Trip temp : this.listOfTrips) {
+                    if (price == temp.getPrice()) {
+                        this.filteredList.add(temp);
+                    }
+                }
+            }else{
+                List<Trip> toRemove = new ArrayList<Trip>();
+                for(Trip temp: this.filteredList){
+                    if(price != temp.getPrice()){
+                        toRemove.add(temp);
+                    }
+                }
+                filteredList.removeAll(toRemove);
+            }
+        }
+
+        if(spots != 0){
+            if(this.filteredList.size() == 0) {
+                for (Trip temp : this.listOfTrips) {
+                    if (spots == temp.getSpots()) {
+                        this.filteredList.add(temp);
+                    }
+                }
+            }else{
+                List<Trip> toRemove = new ArrayList<Trip>();
+                for(Trip temp: this.filteredList){
+                    if(spots != temp.getSpots()){
+                        toRemove.add(temp);
+                    }
+                }
+                filteredList.removeAll(toRemove);
+            }
+        }
+
     }
     public void sortBy(){
 
     }
     public static void main(String[] args){
         TripSearch ferd = new TripSearch();
-        ferd.searchTrip("Aevintyrahestaferd", "Akureyri", "null", 0, 0, 0, 0, false, false, false);
+        ferd.searchTrip("Aevintyrahestaferd", "Akureyri", "null",160717, 0, 0, 0, false, false, false);
         System.out.println(ferd.filteredList.size());
     }
 }
