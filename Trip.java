@@ -17,8 +17,9 @@ public class Trip{
     private boolean pickUp;
     private double score;
     private Integer Ordered;
+    private Integer id;
 
-    public Trip(String name0, String location0, String type0, String company0, String date0, Double duration0, Integer time0, Integer price0, Integer spots0, boolean isSeniors0, boolean isChildren0, boolean pickUp0, double score0){
+    public Trip(String name0, String location0, String type0, String company0, String date0, Double duration0, Integer time0, Integer price0, Integer spots0, boolean isSeniors0, boolean isChildren0, boolean pickUp0, double score0, Integer iD){
         this.name = name0;
         this.location = location0;
         this.type = type0;
@@ -32,6 +33,7 @@ public class Trip{
         this.pickUp = pickUp0;
         this.score = score0;
         this.Ordered = 0;
+        this.id = iD;
     }
 
     public String getDate() {return this.date;}
@@ -84,6 +86,8 @@ public class Trip{
     public Double getScore(){
         return this.score;
     }
+
+    public Integer getId() { return this.id;}
 
     public void setOrdered(int a) {this.Ordered+= a;}
 

@@ -7,7 +7,7 @@ public class TripSearch implements Iterable<Trip>{
     public TripSearch(){
 
         this.listOfTrips = this.getTrips();
-        this.filteredList = this.getTrips();
+        this.filteredList = this.listOfTrips;
     }
 
     /*Creates new List of <Trip> that includes every trip that DataManager returns*/
@@ -16,12 +16,12 @@ public class TripSearch implements Iterable<Trip>{
         DataManager dM = new DataManager();
         String[][] rawData = dM.readData();
         for(int i = 0; i < rawData.length; i++){
-            list.add(i, new Trip(rawData[i][0], rawData[i][1], rawData[i][2], rawData[i][3], rawData[i][4], Double.parseDouble(rawData[i][5]), Integer.parseInt(rawData[i][6]), Integer.parseInt(rawData[i][7]), Integer.parseInt(rawData[i][8]), Boolean.parseBoolean(rawData[i][9]), Boolean.parseBoolean(rawData[i][10]), Boolean.parseBoolean(rawData[i][11]), Double.parseDouble(rawData[i][12])));
+            list.add(i, new Trip(rawData[i][0], rawData[i][1], rawData[i][2], rawData[i][3], rawData[i][4], Double.parseDouble(rawData[i][5]), Integer.parseInt(rawData[i][6]), Integer.parseInt(rawData[i][7]), Integer.parseInt(rawData[i][8]), Boolean.parseBoolean(rawData[i][9]), Boolean.parseBoolean(rawData[i][10]), Boolean.parseBoolean(rawData[i][11]), Double.parseDouble(rawData[i][12]), Integer.parseInteger(rawData[i][13])));
         }
         return list;
     }
 
-    private void searchTrip(String name, String location, String type, String date, Integer time, Integer price, Integer spots){
+    public void searchTrip(String name, String location, String type, String date, Integer time, Integer price, Integer spots){
 
         /*If user doesn't search for anything all of the trips will be returned*/
         if (name.equals("null") && location.equals("null") && type.equals("null") && date.equals("null") && time == 0 && price == 0 && spots == 0){
@@ -158,28 +158,23 @@ public class TripSearch implements Iterable<Trip>{
                 isEmptyAfterFilteration = true;
                 filteredList.removeAll(toRemove);
             }
-            if(this.filteredList.size() == 0){
-                throw new IllegalArgumentException("I'm sorry, but there was no match");
-            }
             this.sortBy("price");
         }
 
     }
     public void sortBy(String a){
-        if(a.equals("Price"))
-        {
+        if(a.equals("Price")){
             Collections.sort(this.filteredList, Trip.PriceComparator());
         }
-
-        if(a.equals("Score"))
+        else if(a.equals("Score"))
         {
             Collections.sort(this.filteredList, Trip.ScoreComparator());
         }
-        if(a.equals("Duration"))
+        else if(a.equals("Duration"))
         {
             Collections.sort(this.filteredList, Trip.DurationComparator());
         }
-        if(a.equals("Date"))
+        else if(a.equals("Date"))
         {
             Collections.sort(this.filteredList, Trip.DateComparator());
         }
@@ -196,6 +191,11 @@ public class TripSearch implements Iterable<Trip>{
     }
 
     public static void main(String[] args){
+        TripSearch ferd = new TripSearch();
+        ferd.searchTrip("Hestaferdin mikla", "null", "null", "null", 0, 0, 0);
+        for(Trip temp : ferd){
+            System.out.println(temp.getName());
+        }
 
     }
 }

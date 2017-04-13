@@ -6,12 +6,12 @@ public class DataManager{
 
     public String[][] readData(){
         String[] lines = new In("trips.txt").readAllLines();
-        String[][] data = new String[lines.length][13];
-        String[] line = new String[13];
-        for(int i = 0; i < lines.length; i++){
-            for(int j = 0; j < 13; j++){
+        String[][] data = new String[lines.length-1][14];
+        String[] line = new String[14];
+        for(int i = 1; i < lines.length; i++){
+            for(int j = 0; j < 14; j++){
                 line = lines[i].split(";");
-                data[i][j] = line[j];
+                data[i-1][j] = line[j];
             }
         }
         return data;
