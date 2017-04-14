@@ -7,7 +7,7 @@ public class TripSearch implements Iterable<Trip>{
     public TripSearch(){
 
         this.listOfTrips = this.getTrips();
-        this.filteredList = this.listOfTrips;
+        this.filteredList = this.getTrips();
     }
 
     /*Creates new List of <Trip> that includes every trip that DataManager returns*/
@@ -16,7 +16,7 @@ public class TripSearch implements Iterable<Trip>{
         DataManager dM = new DataManager();
         String[][] rawData = dM.readData();
         for(int i = 0; i < rawData.length; i++){
-            list.add(i, new Trip(rawData[i][0], rawData[i][1], rawData[i][2], rawData[i][3], rawData[i][4], Double.parseDouble(rawData[i][5]), Integer.parseInt(rawData[i][6]), Integer.parseInt(rawData[i][7]), Integer.parseInt(rawData[i][8]), Boolean.parseBoolean(rawData[i][9]), Boolean.parseBoolean(rawData[i][10]), Boolean.parseBoolean(rawData[i][11]), Double.parseDouble(rawData[i][12]), Integer.parseInteger(rawData[i][13])));
+            list.add(i, new Trip(rawData[i][0], rawData[i][1], rawData[i][2], rawData[i][3], rawData[i][4], Double.parseDouble(rawData[i][5]), Integer.parseInt(rawData[i][6]), Integer.parseInt(rawData[i][7]), Integer.parseInt(rawData[i][8]), Boolean.parseBoolean(rawData[i][9]), Boolean.parseBoolean(rawData[i][10]), Boolean.parseBoolean(rawData[i][11]), Double.parseDouble(rawData[i][12]), Integer.parseInt(rawData[i][13])));
         }
         return list;
     }
