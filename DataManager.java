@@ -4,6 +4,7 @@ public class DataManager{
     
     public DataManager(){}
 
+    // Creates a 2d String array, where each line is a trip and each column represents info about that trip
     public String[][] readData(){
         String[] lines = new In("trips.txt").readAllLines();
         String[][] data = new String[lines.length-1][14];
