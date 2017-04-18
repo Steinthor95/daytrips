@@ -272,9 +272,5 @@ public class UI{
         }
     }
     userint.booker.updateBookings();
-
-    //userint.printTrips();
-    //userint.leit.searchTrip("Hestaferdin mikla", "null", "null", "null", 0, 0, 0);
-    //userint.printTrips();
   }
 }
