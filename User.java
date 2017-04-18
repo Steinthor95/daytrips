@@ -20,7 +20,8 @@ public class User {
     public void setMyList(Trip trip) {
         myList.add(trip);
     }
-    
+
+    //Removes a trip from the myList
     public void cancel(Trip trip) {
         List<Trip> toRemove = new ArrayList<Trip>();
         for(Trip temp : this.myList){

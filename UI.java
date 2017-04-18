@@ -93,7 +93,6 @@ public class UI{
             System.out.println("Any key: Continue");
             String b = StdIn.readString();
             if(b.equals("A")){
-                this.leit.resetFilteredList();
                 this.searchMenu();
             }else if (b.equals("B")) this.bookingMenu();
 
@@ -105,10 +104,10 @@ public class UI{
             StdOut.println(  "D. By date");
             String s3 = StdIn.readString();
             String rada="";
-            if(s3=="A") rada="Price";
-            if(s3=="B") rada="Score";
-            if(s3=="C") rada="Duration";
-            if(s3=="D") rada="Date";
+            if(s3.equals("A")) rada="Price";
+            if(s3.equals("B")) rada="Score";
+            if(s3.equals("C")) rada="Duration";
+            if(s3.equals("D")) rada="Date";
             leit.sortBy(rada);
             printTrips();
             System.out.println("Would you like to");
@@ -117,7 +116,6 @@ public class UI{
             System.out.println("Any Key: Continue");
             String a = StdIn.readString();
             if(a.equals("A")){
-                this.leit.resetFilteredList();
                 this.searchMenu();
             }else if(a.equals("B")) this.bookingMenu();
         }
@@ -174,7 +172,6 @@ public class UI{
           System.out.print(", " + trip.getPickUp());
           System.out.println(", " + trip.getScore());
       }
-    }
   }
 
   private void cancelTrip(){
@@ -267,10 +264,11 @@ public class UI{
               String k = StdIn.readString();
               if(k.equals("C")){
                   userint.cancelTrip();
-              }else StdOut.println("Thank you. Have a nice day!");
+              }
               search = true;
           }
       }
+      StdOut.println("Thank you. Have a nice day!");
       userint.booker.updateBookings();
   }
 }
