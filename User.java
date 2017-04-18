@@ -14,16 +14,20 @@ public class User {
     public Integer getId(){
         return this.Id;
     }
-    
-    //public void giveScore(Trip trip, Double myScore){
-      //  trip.setScore(myScore);
-    //}
+
+    public List<Trip> getTrips(){ return this.myList; }
     
     public void setMyList(Trip trip) {
         myList.add(trip);
     }
     
     public void cancel(Trip trip) {
-        myList.remove(trip);
+        List<Trip> toRemove = new ArrayList<Trip>();
+        for(Trip temp : this.myList){
+            if(trip.getId() == temp.getId()){
+                toRemove.add(temp);
+            }
+        }
+        myList.removeAll(toRemove);
     }
 }

@@ -1,29 +1,88 @@
-﻿Name;Location;Type;Company;Date;Duration;Time;Price;Seats;isChildren;isSeniors;pickUp;Score;ID
-Hestaferdin mikla;Mosfellsbaer;hestaferd;Ishestar;03-06-2017;3.5;1100;15000;12;false;false;true;6.9;2
-Hestaferdin mikla;Mosfellsbaer;hestaferd;Ishestar;03-06-2017;3.5;1500;15000;10;false;false;true;7.9;3
-Hestaferdin mikla;Mosfellsbaer;hestaferd;Ishestar;10-06-2017;3.5;1100;15000;10;false;false;true;7.6;4
-Hestaferdin mikla;Mosfellsbaer;hestaferd;Ishestar;10-06-2017;3.5;1500;15000;12;false;false;true;7.5;5
-Hestaferdin mikla;Mosfellsbaer;hestaferd;Ishestar;17-06-2017;3.5;1100;15000;12;false;false;true;6.9;6
-Hestaferdin mikla;Mosfellsbaer;hestaferd;Ishestar;17-06-2017;3.5;1500;15000;12;false;false;true;7.9;7
-Hestaferdin mikla;Mosfellsbaer;hestaferd;Ishestar;24-06-2017;3.5;1100;15000;4;false;false;true;7.6;8
-Hestaferdin mikla;Mosfellsbaer;hestaferd;Ishestar;24-06-2017;3.5;1500;15000;12;false;false;true;7.5;9
-Hestaferdin thin;Mosfellsbaer;hestaferd;Ishestar;04-06-2017;2;1100;11000;8;true;true;true;7.0;10
-Hestaferdin thin;Mosfellsbaer;hestaferd;Ishestar;04-06-2017;2;1500;11000;8;true;true;true;7.0;11
-Hestaferdin thin;Mosfellsbaer;hestaferd;Ishestar;11-06-2017;2;1100;11000;12;true;true;true;7.1;12
-Hestaferdin thin;Mosfellsbaer;hestaferd;Ishestar;11-06-2017;2;1500;11000;11;true;true;true;8.1;13
-Aevintyrahestaferd;Akranes;hestaferd;Sporthestar;03-06-2017;4.5;1000;22000;20;false;false;false;8.9;14
-Aevintyrahestaferd;Akranes;hestaferd;Sporthestar;04-06-2017;4.5;1000;22000;10;false;false;false;9.4;15
-Aevintyrahestaferd;Akranes;hestaferd;Sporthestar;10-06-2017;4.5;1000;22000;20;false;false;false;9.4;16
-Aevintyrahestaferd;Akranes;hestaferd;Sporthestar;11-06-2017;4.5;1000;22000;20;false;false;false;8.8;17
-Aevintyrahestaferd;Akranes;hestaferd;Sporthestar;17-06-2017;4.5;1000;22000;20;false;false;false;8.8;18
-Aevintyrahestaferd;Akranes;hestaferd;Sporthestar;18-06-2017;4.5;1000;22000;20;false;false;false;9.0;19
-Aevintyrahestaferd;Akranes;hestaferd;Sporthestar;24-06-2017;4.5;1000;22000;5;false;false;false;9.0;20
-Aevintyrahestaferd;Akranes;hestaferd;Sporthestar;25-06-2017;4.5;1000;22000;0;false;false;false;8.5;21
-Aevintyrahestaferd;Akranes;hestaferd;Sporthestar;01-07-2017;4.5;1000;22000;20;false;false;false;8.9;22
-Aevintyrahestaferd;Akranes;hestaferd;Sporthestar;02-07-2017;4.5;1000;22000;10;false;false;false;8.9;23
-Aevintyrahestaferd;Akranes;hestaferd;Sporthestar;08-07-2017;4.5;1000;22000;20;false;false;false;7.9;24
-Aevintyrahestaferd;Akranes;hestaferd;Sporthestar;09-07-2017;4.5;1000;22000;20;false;false;false;8.2;25
-Aevintyrahestaferd;Akranes;hestaferd;Sporthestar;15-07-2017;4.5;1000;22000;20;false;false;false;8.9;26
-Aevintyrahestaferd;Akureyri;hestaferd;Sporthestar;16-07-2017;4.5;1000;22000;20;false;false;false;9.0;27
-Aevintyrahestaferd;Akureyri;hestaferd;Sporthestar;22-07-2017;4.5;1000;22000;17;false;false;false;7.9;28
-Aevintyrahestaferd;Akureyri;hestaferd;Sporthestar;23-07-2017;4.5;1000;22000;15;false;false;false;8.1;29
+Name;Location;Type;Company;Date;Duration;Time;Price;Seats;isChildren;isSeniors;pickUp;Score;ID
+Hestaferdin-mikla;Westfjords;hestaferd;Ishestar;03-06-2017;3.5;1100;15000;12;false;false;true;6.9;2
+Hestaferdin-mikla;Westfjords;hestaferd;Ishestar;03-06-2017;3.5;1500;15000;10;false;false;true;7.9;3
+Hestaferdin-mikla;Westfjords;hestaferd;Ishestar;10-06-2017;3.5;1100;15000;10;false;false;true;7.6;4
+Hestaferdin-mikla;Westfjords;hestaferd;Ishestar;10-06-2017;3.5;1500;15000;12;false;false;true;7.5;5
+Hestaferdin-mikla;Westfjords;hestaferd;Ishestar;17-06-2017;3.5;1100;15000;12;false;false;true;6.9;6
+Hestaferdin-mikla;Westfjords;hestaferd;Ishestar;17-06-2017;3.5;1500;15000;12;false;false;true;7.9;7
+Hestaferdin-mikla;Westfjords;hestaferd;Ishestar;24-06-2017;3.5;1100;15000;4;false;false;true;7.6;8
+Hestaferdin-mikla;Westfjords;hestaferd;Ishestar;24-06-2017;3.5;1500;15000;12;false;false;true;7.5;9
+Hestaferdin-thin;Westfjords;hestaferd;Ishestar;04-06-2017;2;1100;11000;8;true;true;true;7.0;10
+Hestaferdin-thin;Westfjords;hestaferd;Ishestar;04-06-2017;2;1500;11000;8;true;true;true;7.0;11
+Hestaferdin-thin;Westfjords;hestaferd;Ishestar;11-06-2017;2;1100;11000;12;true;true;true;7.1;12
+Hestaferdin-thin;Westfjords;hestaferd;Ishestar;11-06-2017;2;1500;11000;11;true;true;true;8.1;13
+Aevintyrahestaferd;West;hestaferd;Sporthestar;03-06-2017;4.5;1000;22000;20;false;false;false;8.9;14
+Aevintyrahestaferd;West;hestaferd;Sporthestar;04-06-2017;4.5;1000;22000;10;false;false;false;9.4;15
+Aevintyrahestaferd;West;hestaferd;Sporthestar;10-06-2017;4.5;1000;22000;20;false;false;false;9.4;16
+Aevintyrahestaferd;West;hestaferd;Sporthestar;11-06-2017;4.5;1000;22000;20;false;false;false;8.8;17
+Aevintyrahestaferd;West;hestaferd;Sporthestar;17-06-2017;4.5;1000;22000;20;false;false;false;8.8;18
+Aevintyrahestaferd;West;hestaferd;Sporthestar;18-06-2017;4.5;1000;22000;20;false;false;false;9.0;19
+Aevintyrahestaferd;West;hestaferd;Sporthestar;24-06-2017;4.5;1000;22000;5;false;false;false;9.0;20
+Aevintyrahestaferd;West;hestaferd;Sporthestar;25-06-2017;4.5;1000;22000;0;false;false;false;8.5;21
+Aevintyrahestaferd;West;hestaferd;Sporthestar;01-07-2017;4.5;1000;22000;20;false;false;false;8.9;22
+Aevintyrahestaferd;West;hestaferd;Sporthestar;02-07-2017;4.5;1000;22000;10;false;false;false;8.9;23
+Aevintyrahestaferd;West;hestaferd;Sporthestar;08-07-2017;4.5;1000;22000;20;false;false;false;7.9;24
+Aevintyrahestaferd;West;hestaferd;Sporthestar;09-07-2017;4.5;1000;22000;20;false;false;false;8.2;25
+Aevintyrahestaferd;West;hestaferd;Sporthestar;15-07-2017;4.5;1000;22000;20;false;false;false;8.9;26
+Aevintyrahestaferd;North;hestaferd;Sporthestar;16-07-2017;4.5;1000;22000;20;false;false;false;9.0;27
+Aevintyrahestaferd;North;hestaferd;Sporthestar;22-07-2017;4.5;1000;22000;17;false;false;false;7.9;28
+Aevintyrahestaferd;North;hestaferd;Sporthestar;23-07-2017;4.5;1000;22000;15;false;false;false;8.1;29
+Upp-a-fjallsins-brun;Northeast;gonguferd;Fjallshlid;03-06-2017;6;0900;11000;5;false;false;true;5.1;30
+Upp-a-fjallsins-brun;Northeast;gonguferd;Fjallshlid;03-06-2017;6;1200;11000;5;false;false;true;6.4;31
+Upp-a-fjallsins-brun;Northeast;gonguferd;Fjallshlid;04-06-2017;6;0900;11000;5;false;false;true;5.3;32
+Upp-a-fjallsins-brun;Northeast;gonguferd;Fjallshlid;04-06-2017;6;1200;11000;4;false;false;true;5.1;33
+Upp-a-fjallsins-brun;Northeast;gonguferd;Fjallshlid;15-07-2017;6;0900;11000;5;false;false;true;5.0;34
+Upp-a-fjallsins-brun;Northeast;gonguferd;Fjallshlid;16-07-2017;6;1200;11000;5;false;false;true;5.0;35
+Upp-a-fjallsins-brun;Northeast;gonguferd;Fjallshlid;22-07-2017;6;0900;11000;5;false;false;true;4.9;36
+Upp-a-fjallsins-brun;Northeast;gonguferd;Fjallshlid;23-07-2017;6;1200;11000;5;false;false;true;5.1;37
+Fjolskylduganga;Northeast;gonguferd;Fjallshlid;03-06-2017;3;0900;7000;15;true;true;true;9.1;38
+Fjolskylduganga;Northeast;gonguferd;Fjallshlid;03-06-2017;3;1400;7000;15;true;true;true;8.5;39
+Fjolskylduganga;Northeast;gonguferd;Fjallshlid;04-06-2017;3;0900;7000;15;true;true;true;8.5;40
+Fjolskylduganga;Northeast;gonguferd;Fjallshlid;04-06-2017;3;1200;7000;15;true;true;true;8.6;41
+Dagur-i-Blafjollum;South;skidaferd;Snjokarlarnir;25-11-2017;5;1030;12000;25;true;true;true;8.5;42
+Dagur-i-Blafjollum;South;skidaferd;Snjokarlarnir;26-11-2017;5;1030;12000;19;true;true;true;8.9;43
+Dagur-i-Blafjollum;South;skidaferd;Snjokarlarnir;02-12-2017;5;1030;12000;25;true;true;true;7.9;44
+Dagur-i-Blafjollum;South;skidaferd;Snjokarlarnir;03-12-2017;5;1030;12000;15;true;true;true;8.1;45
+Adrenalinferdin;South;skidaferd;Superferdir;25-11-2017;4.5;1100;14000;14;false;false;true;7.8;46
+Adrenalinferdin;South;skidaferd;Superferdir;26-11-2017;4.5;1100;14000;14;false;false;true;7.7;47
+Adrenalinferdin;South;skidaferd;Superferdir;02-12-2017;4.5;1100;14000;10;false;false;true;8.0;48
+Adrenalinferdin;South;skidaferd;Superferdir;03-12-2017;4.5;1100;14000;7;false;false;true;8.0;49
+Adrenalinferdin;South;skidaferd;Superferdir;09-12-2017;4.5;1100;14000;14;false;false;true;7.8;50
+Adrenalinferdin;South;skidaferd;Superferdir;10-12-2017;4.5;1100;14000;14;false;false;true;8.0;51
+Adrenalinferdin;South;skidaferd;Superferdir;16-12-2017;4.5;1100;14000;14;false;false;true;7.6;52
+Adrenalinferdin;South;skidaferd;Superferdir;17-12-2017;4.5;1100;14000;14;false;false;true;8.2;53
+Adrenalinferdin;South;skidaferd;Superferdir;19-12-2017;4.5;1100;14000;14;false;false;true;8.2;54
+Reykjavik-i-hnotskurn;Capital;skodunarferd;Borgarferdir;02-07-2017;3.5;1030;9000;7;true;false;false;6.9;55
+Reykjavik-i-hnotskurn;Capital;skodunarferd;Borgarferdir;03-07-2017;3.5;1030;9000;11;true;false;false;5.9;56
+Reykjavik-i-hnotskurn;Capital;skodunarferd;Borgarferdir;04-07-2017;3.5;1030;9000;15;true;false;false;5.9;57
+Reykjavik-i-hnotskurn;Capital;skodunarferd;Borgarferdir;05-07-2017;3.5;1030;9000;15;true;false;false;6.2;58
+Reykjavik-beint-i-aed;Capital;skodunarferd;Borgarferdir;01-07-2017;3.5;1700;11000;6;true;false;false;7.4;59
+Reykjavik-beint-i-aed;Capital;skodunarferd;Borgarferdir;02-07-2017;3.5;1700;11000;15;true;false;false;7.1;60
+Reykjavik-beint-i-aed;Capital;skodunarferd;Borgarferdir;03-07-2017;3.5;1700;11000;15;true;false;false;7.4;61
+Reykjavik-beint-i-aed;Capital;skodunarferd;Borgarferdir;04-07-2017;3.5;1700;11000;15;true;false;false;7.2;62
+Reykjavik-beint-i-aed;Capital;skodunarferd;Borgarferdir;05-07-2017;3.5;1700;11000;15;true;false;false;7.4;63
+Reykjavik-beint-i-aed;Capital;skodunarferd;Borgarferdir;01-07-2017;3.5;1700;11000;15;true;false;false;7.4;64
+Reykjavik-beint-i-aed;Capital;skodunarferd;Borgarferdir;02-07-2017;3.5;1700;11000;11;true;false;false;6.9;65
+Reykjavik-beint-i-aed;Capital;skodunarferd;Borgarferdir;03-07-2017;3.5;1700;11000;11;true;false;false;6.5;66
+Reykjavik-beint-i-aed;Capital;skodunarferd;Borgarferdir;04-07-2017;3.5;1700;11000;11;true;false;false;7.9;67
+Borgin-thin;Capital;skodunarferd;Hofudborgin;01-07-2017;3;1200;7000;23;true;true;false;8.0;68
+Borgin-thin;Capital;skodunarferd;Hofudborgin;02-07-2017;3;1200;7000;23;true;true;false;8.1;69
+Borgin-thin;Capital;skodunarferd;Hofudborgin;03-07-2017;3;1200;7000;23;true;true;false;8.6;70
+Borgin-thin;Capital;skodunarferd;Hofudborgin;04-07-2017;3;1200;7000;23;true;true;false;8.0;71
+Borgin-thin;Capital;skodunarferd;Hofudborgin;05-07-2017;3;1200;7000;23;true;true;false;8.0;72
+Adrenalinferdin-mikla;East;skidaferd;Thinarferdir;25-11-2017;4.5;1100;14000;14;false;false;true;7.2;73
+Adrenalinferdin-mikla;East;skidaferd;Thinarferdir;26-11-2017;4.5;1100;14000;14;false;false;true;7.1;74
+Adrenalinferdin-mikla;East;skidaferd;Thinarferdir;02-12-2017;4.5;1100;14000;10;false;false;true;8.8;75
+Adrenalinferdin-mikla;East;skidaferd;Thinarferdir;03-12-2017;4.5;1100;14000;7;false;false;true;9.3;76
+Adrenalinferdin-mikla;East;skidaferd;Thinarferdir;09-12-2017;4.5;1100;14000;14;false;false;true;7.8;77
+Adrenalinferdin-mikla;East;skidaferd;Thinarferdir;10-12-2017;4.5;1100;14000;14;false;false;true;8.0;78
+Adrenalinferdin-mikla;East;skidaferd;Thinarferdir;16-12-2017;4.5;1100;14000;14;false;false;true;7.6;79
+Adrenalinferdin-mikla;East;skidaferd;Thinarferdir;17-12-2017;4.5;1100;14000;14;false;false;true;8.2;80
+Fjallgangan;Northwest;gonguferd;Fjallshlid;03-06-2017;6;0900;10000;5;false;false;true;8.1;81
+Fjallgangan;Northwest;gonguferd;Fjallshlid;03-06-2017;6;1200;10000;5;false;false;true;6.4;82
+Fjallgangan;Northwest;gonguferd;Fjallshlid;04-06-2017;6;0900;10000;5;false;false;true;5.3;83
+Fjallgangan;Northwest;gonguferd;Fjallshlid;04-06-2017;6;1200;10000;4;false;false;true;3.1;84
+Fjallgangan;Northwest;gonguferd;Fjallshlid;15-07-2017;6;0900;10000;5;false;false;true;9.0;85
+Fjallgangan;Northwest;gonguferd;Fjallshlid;16-07-2017;6;1200;10000;5;false;false;true;5.0;86
+Fjallgangan;Northwest;gonguferd;Fjallshlid;22-07-2017;6;0900;10000;5;false;false;true;4.9;87
+Fjallgangan;Northwest;gonguferd;Fjallshlid;23-07-2017;6;1200;10000;5;false;false;true;5.1;88
