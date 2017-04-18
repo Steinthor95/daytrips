@@ -184,6 +184,10 @@ public class TripSearch implements Iterable<Trip>{
     public List<Trip> getFilteredList(){
         return this.filteredList;
     }
+    
+    public void resetFilteredList(){
+        this.filteredList = this.listOfTrips;
+    }
 
     @Override
     public Iterator<Trip> iterator() {
