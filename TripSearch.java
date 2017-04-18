@@ -162,6 +162,7 @@ public class TripSearch implements Iterable<Trip>{
         }
 
     }
+    // function that sorts filteredList by Price, Score etc.
     public void sortBy(String a){
         if(a.equals("Price")){
             Collections.sort(this.filteredList, Trip.PriceComparator());
@@ -184,7 +185,8 @@ public class TripSearch implements Iterable<Trip>{
     public List<Trip> getFilteredList(){
         return this.filteredList;
     }
-    
+
+    //resets our FilteredList so that includes all of the Trips.
     public void resetFilteredList(){
         this.filteredList = this.listOfTrips;
     }
